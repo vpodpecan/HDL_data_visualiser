@@ -1,0 +1,5 @@
+pandas==0.17.1
+tables==3.2.2
+bottle==0.12.9
+Paste==2.0.2
+
