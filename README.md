@@ -10,12 +10,12 @@ The aim of the visuliser is to enable quick and efficient visualisation of a lar
 
 ### Licence
 
-This project uses [Highsoft's](http://www.highcharts.com/) software products ([Higstock](http://www.highcharts.com/products/highstock)) so the licencing terms apply. In general, non-commercial use is allowed for non-profit organisations, students, testing, etc. but it is not free for commercial and Governmental use. See [here](https://shop.highsoft.com/faq#Non-Commercial-0) for more information.
+This project uses [Highsoft's](http://www.highcharts.com/) software products ([Higstock](http://www.highcharts.com/products/highstock)) so the licensing terms apply. In general, non-commercial use is allowed for non-profit organisations, students, testing, etc. but it is not free for commercial and Governmental use. See [here](https://shop.highsoft.com/faq#Non-Commercial-0) for more information.
 
 
 ### How to use
 
-1. First, you need [HDL data parser](https://github.com/vpodpecan/HDL_data_parser) and prepare the data. This will give you a ~7GB file.
+1. First, you need to run [HDL data parser](https://github.com/vpodpecan/HDL_data_parser) and prepare the data. This will give you a ~7GB file.
 
 2. Run the server. The following command will start the server on port 8000:
 
