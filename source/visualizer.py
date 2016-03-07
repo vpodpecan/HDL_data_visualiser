@@ -10,14 +10,16 @@ from bottle import route, template, static_file, run, request, post, get, defaul
 from paste import httpserver
 from paste.translogger import TransLogger
 
-from os.path import join, dirname, exists
+from os.path import join, dirname, exists, split
 import sys
 import argparse
 
 import pandas as pd
 
-basedir = join(dirname(__file__), 'static')
-templatedir = join(dirname(__file__), 'templates')
+
+basedir = join(dirname(split(__file__)[0]), 'static')
+templatedir = join(dirname(split(__file__)[0]), 'templates')
+
 
 logformat = ('%(REMOTE_ADDR)s [%(time)s] '
               '"%(REQUEST_METHOD)s %(REQUEST_URI)s %(HTTP_VERSION)s" '
