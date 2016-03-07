@@ -21,13 +21,19 @@ This project uses [Highsoft's](http://www.highcharts.com/) software products ([H
 
         python3 visualizer.py -d ../HDL_data_parser/output/hdl_data.h5
 
-3. Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to visualise the data
+3. Visit [http://127.0.0.1:8000](http://127.0.0.1:8000) to visualise and explore the data
 
 
 ### Requirements
+
 In short, you need not-too-old versions of Python3, pandas, bottle, Paste and pytables (requires [HDF5](https://www.hdfgroup.org/HDF5/release/obtain5.html)). The code is known to work with:
 * Python==3.4.1
 * pandas==0.17.1
 * tables==3.2.2
 * bottle==0.12.9
 * Paste==2.0.2
+
+
+### Author and Contact
+
+You can contact the author at <vid.podpecan@ijs.si>
